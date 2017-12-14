@@ -1,10 +1,3 @@
-//
-//  MAPD714_F2017_Lesson11ATests.swift
-//  MAPD714-F2017-Lesson11ATests
-//
-//  Created by Tom Tsiliopoulos on 2017-12-13.
-//  Copyright © 2017 Centennial College. All rights reserved.
-//
 
 import XCTest
 @testable import MAPD714_F2017_Lesson11A
@@ -21,16 +14,32 @@ class MAPD714_F2017_Lesson11ATests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCard_ArrayExists() {
+        let card = Card(Suit.Spades.rawValue, Face.Ace.rawValue)
+
+        XCTAssertEqual(card.face, Face.Ace.rawValue)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testArray_Of_Type_Card() {
+        let deck = Array<Card>()
+    }
+    
+    
+    func testInitialize_Method_Of_Deck() {
+        var deck = Array<Card>()
+        
+        deck = deck.initialize()
+    }
+    
+    func testDeck_Has_52_Cards() {
+        var deck = Array<Card>()
+        
+        deck = deck.initialize()
+        
+        deck.display(Deck: deck)
+        
+        
+        XCTAssertEqual(deck.count,52)
     }
     
 }

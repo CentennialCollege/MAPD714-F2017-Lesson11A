@@ -13,6 +13,10 @@
 		E9EE55181FE1F74600BE48E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EE55171FE1F74600BE48E4 /* Assets.xcassets */; };
 		E9EE551B1FE1F74600BE48E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EE55191FE1F74600BE48E4 /* LaunchScreen.storyboard */; };
 		E9EE55261FE1F74600BE48E4 /* MAPD714_F2017_Lesson11ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE55251FE1F74600BE48E4 /* MAPD714_F2017_Lesson11ATests.swift */; };
+		E9EE55311FE1FADB00BE48E4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE55301FE1FADB00BE48E4 /* Card.swift */; };
+		E9EE55331FE2047300BE48E4 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE55321FE2047300BE48E4 /* Deck.swift */; };
+		E9EE55351FE2079C00BE48E4 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE55341FE2079C00BE48E4 /* Suit.swift */; };
+		E9EE55371FE208BF00BE48E4 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE55361FE208BF00BE48E4 /* Face.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		E9EE55211FE1F74600BE48E4 /* MAPD714-F2017-Lesson11ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAPD714-F2017-Lesson11ATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EE55251FE1F74600BE48E4 /* MAPD714_F2017_Lesson11ATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPD714_F2017_Lesson11ATests.swift; sourceTree = "<group>"; };
 		E9EE55271FE1F74600BE48E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EE55301FE1FADB00BE48E4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E9EE55321FE2047300BE48E4 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		E9EE55341FE2079C00BE48E4 /* Suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		E9EE55361FE208BF00BE48E4 /* Face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				E9EE55171FE1F74600BE48E4 /* Assets.xcassets */,
 				E9EE55191FE1F74600BE48E4 /* LaunchScreen.storyboard */,
 				E9EE551C1FE1F74600BE48E4 /* Info.plist */,
+				E9EE55301FE1FADB00BE48E4 /* Card.swift */,
+				E9EE55321FE2047300BE48E4 /* Deck.swift */,
+				E9EE55341FE2079C00BE48E4 /* Suit.swift */,
+				E9EE55361FE208BF00BE48E4 /* Face.swift */,
 			);
 			path = "MAPD714-F2017-Lesson11A";
 			sourceTree = "<group>";
@@ -199,7 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EE55331FE2047300BE48E4 /* Deck.swift in Sources */,
+				E9EE55351FE2079C00BE48E4 /* Suit.swift in Sources */,
 				E9EE55131FE1F74600BE48E4 /* ViewController.swift in Sources */,
+				E9EE55311FE1FADB00BE48E4 /* Card.swift in Sources */,
+				E9EE55371FE208BF00BE48E4 /* Face.swift in Sources */,
 				E9EE55111FE1F74600BE48E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
